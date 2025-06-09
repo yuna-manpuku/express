@@ -15,7 +15,7 @@ const responseObjectDataAll = {
     subTitle:'ノート2のサブタイトルです',
     bodyText:'ノート2の本文です'
   },
-}:
+};
 
 /**
  * メモを全権取得するAPI
