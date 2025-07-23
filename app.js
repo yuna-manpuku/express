@@ -31,6 +31,7 @@ app.use('/notes', notesRouter);
 app.use('/cat', catRouter);
 app.use('/dog', dogRouter);
 app.use('/notes_from_b', notes_from_bRouter);
+app.use('/vue2', express.static('/home/cu2401320004/public_html/vue2'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
